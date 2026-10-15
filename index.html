@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>交易学堂</title>
+<style>
+:root { --bg: #f6f5f1; --card: #ffffff; --ink: #1f2328; --muted: #6b7078; --line: #e3e1da; --accent: #5b3fd1; --accent-soft: #efeafd; --warn: #a8650a; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #15161a; --card: #1e2026; --ink: #e8e9ec; --muted: #9aa0a8; --line: #2e3138; --accent: #a993ff; --accent-soft: #2a2440; --warn: #f0b45a; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif; font-size: 16px; line-height: 1.6; -webkit-text-size-adjust: 100%; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 16px 16px 48px; }
+.hero, section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin: 0 0 16px; }
+.kicker { font-size: 13px; color: var(--accent); font-weight: 700; }
+h1 { font-size: 24px; margin: 4px 0 6px; }
+h2 { font-size: 18px; margin: 0 0 8px; }
+.meta { font-size: 13px; color: var(--muted); }
+.progress { height: 6px; background: var(--line); border-radius: 3px; margin-top: 10px; overflow: hidden; }
+.progress > span { display: block; height: 100%; background: var(--accent); }
+.latest { display: block; background: var(--accent-soft); border-radius: 14px; padding: 14px 16px; margin: 0 0 16px; color: var(--ink); text-decoration: none; }
+.latest small { display: block; color: var(--accent); font-weight: 700; font-size: 13px; }
+.latest b { font-size: 17px; }
+details.mod { border-top: 1px solid var(--line); padding: 8px 0; }
+details.mod:first-child { border-top: none; }
+details.mod summary { cursor: pointer; font-weight: 700; }
+.count { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 6px; }
+.row { display: flex; gap: 10px; align-items: baseline; padding: 7px 0; border-bottom: 1px dashed var(--line); text-decoration: none; color: var(--ink); }
+.row:last-child { border-bottom: none; }
+.row .id { font-family: Consolas, "SF Mono", monospace; font-size: 13px; color: var(--muted); flex: none; width: 40px; }
+.row .t { flex: 1; }
+.row .d { font-size: 12px; color: var(--muted); flex: none; }
+.row.upcoming { color: var(--muted); }
+.row .tag { font-size: 12px; color: var(--warn); border: 1px solid var(--warn); border-radius: 4px; padding: 0 4px; flex: none; }
+.empty { color: var(--muted); font-size: 14px; margin: 0; }
+footer { font-size: 12px; color: var(--muted); text-align: center; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="kicker">每天 12:00 · 周一至周五新课 · 周六复习</div>
+    <h1>📚 交易学堂</h1>
+    <div class="meta" id="meta">载入中…</div>
+    <div class="progress"><span id="bar" style="width:0"></span></div>
+  </header>
+  <a class="latest" id="latest"><b>载入中…</b></a>
+  <section><h2>课程目录</h2><div id="modules"></div></section>
+  <section><h2>📝 复习</h2><div id="reviews"></div></section>
+  <section><h2>🍱 加餐</h2><div id="extras"></div></section>
+  <footer>教学用途，不构成投资建议</footer>
+</div>
+<script>
+function esc(t) { return String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
+function row(item, extra) {
+  const inner = `<span class="id">${esc(item.id)}</span><span class="t">${esc(item.title)}</span>${extra || ""}`;
+  return item.url ? `<a class="row" href="${esc(item.url)}">${inner}</a>` : `<div class="row ${item.status || ""}">${inner}</div>`;
+}
+function list(items) {
+  return items.length ? items.slice().reverse().map(i => row(i, `<span class="d">${esc(i.date)}</span>`)).join("") : '<p class="empty">暂无</p>';
+}
+fetch("catalog.json", { cache: "no-store" }).then(r => r.json()).then(cat => {
+  document.getElementById("meta").textContent = `已讲 ${cat.done} / ${cat.total} 课 · 更新于 ${cat.updated}`;
+  document.getElementById("bar").style.width = (cat.total ? cat.done / cat.total * 100 : 0).toFixed(1) + "%";
+  const latest = document.getElementById("latest");
+  if (cat.latest) {
+    latest.href = cat.latest.url;
+    latest.innerHTML = `<small>最新 · ${esc(cat.latest.date)}</small><b>${esc(cat.latest.id)}｜${esc(cat.latest.title)}</b>`;
+  } else {
+    latest.innerHTML = "<small>即将开始</small><b>课程即将开始，第一课在工作日 12:00 推送</b>";
+  }
+  let current = cat.modules.findIndex(m => m.lessons.some(l => l.status === "upcoming"));
+  if (current < 0) current = cat.modules.length - 1;
+  document.getElementById("modules").innerHTML = cat.modules.map((m, i) => {
+    const done = m.lessons.filter(l => l.status === "done").length;
+    const rows = m.lessons.map(l => row(l, l.status === "done" ? `<span class="d">${esc(l.date)}</span>`
+      : l.status === "skipped" ? '<span class="tag">待补讲</span>' : "")).join("");
+    return `<details class="mod"${i === current ? " open" : ""}><summary>${esc(m.id)} ${esc(m.name)}<span class="count">${done}/${m.lessons.length}</span></summary>${rows}</details>`;
+  }).join("");
+  document.getElementById("reviews").innerHTML = list(cat.reviews);
+  document.getElementById("extras").innerHTML = list(cat.extras);
+}).catch(() => { document.getElementById("meta").textContent = "课程目录载入失败，请稍后刷新"; });
+</script>
+</body>
+</html>

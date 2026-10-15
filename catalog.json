@@ -1,0 +1,370 @@
+{
+ "updated": "2026-10-15",
+ "total": 60,
+ "done": 0,
+ "latest": null,
+ "modules": [
+  {
+   "id": "M1",
+   "name": "风险与仓位：交易者的地基",
+   "lessons": [
+    {
+     "id": "L01",
+     "title": "期望值：胜率与赔率的乘法",
+     "status": "upcoming"
+    },
+    {
+     "id": "L02",
+     "title": "R 倍数：用风险单位衡量每一笔交易",
+     "status": "upcoming"
+    },
+    {
+     "id": "L03",
+     "title": "回撤的数学：亏 50% 要涨 100% 才回本",
+     "status": "upcoming"
+    },
+    {
+     "id": "L04",
+     "title": "凯利公式与半凯利：最优仓位的理论上限",
+     "status": "upcoming"
+    },
+    {
+     "id": "L05",
+     "title": "固定比例风险：每笔只亏账户的 1%",
+     "status": "upcoming"
+    },
+    {
+     "id": "L06",
+     "title": "止损设计：技术止损、ATR 波动止损与时间止损",
+     "status": "upcoming"
+    }
+   ]
+  },
+  {
+   "id": "M2",
+   "name": "技术分析进阶",
+   "lessons": [
+    {
+     "id": "L07",
+     "title": "道氏理论：三级趋势与指数相互确认",
+     "status": "upcoming"
+    },
+    {
+     "id": "L08",
+     "title": "均线系统：MA50/MA200 与金叉死叉的实证表现",
+     "status": "upcoming"
+    },
+    {
+     "id": "L09",
+     "title": "量价关系：放量突破、缩量回调与量价背离",
+     "status": "upcoming"
+    },
+    {
+     "id": "L10",
+     "title": "支撑阻力与成交量分布（Volume Profile）",
+     "status": "upcoming"
+    },
+    {
+     "id": "L11",
+     "title": "RSI/MACD 背离：何时有效，何时是陷阱",
+     "status": "upcoming"
+    },
+    {
+     "id": "L12",
+     "title": "布林带与波动率收缩",
+     "status": "upcoming"
+    },
+    {
+     "id": "L13",
+     "title": "相对强度（RS）：强者恒强的横截面视角",
+     "status": "upcoming"
+    }
+   ]
+  },
+  {
+   "id": "M3",
+   "name": "价值投资框架",
+   "lessons": [
+    {
+     "id": "L14",
+     "title": "四大师框架总览：巴菲特、芒格、段永平、李录",
+     "status": "upcoming"
+    },
+    {
+     "id": "L15",
+     "title": "段永平的“本分”与不为清单",
+     "status": "upcoming"
+    },
+    {
+     "id": "L16",
+     "title": "护城河的来源与识别",
+     "status": "upcoming"
+    },
+    {
+     "id": "L17",
+     "title": "去劣筛选：7 条指标排除非一流公司",
+     "status": "upcoming"
+    },
+    {
+     "id": "L18",
+     "title": "行业漏斗：从全市场到 3 家",
+     "status": "upcoming"
+    },
+    {
+     "id": "L19",
+     "title": "管理层评估：买股票就是买人",
+     "status": "upcoming"
+    },
+    {
+     "id": "L20",
+     "title": "买入前 Checklist：最后一道闸",
+     "status": "upcoming"
+    }
+   ]
+  },
+  {
+   "id": "M4",
+   "name": "交易系统流派",
+   "lessons": [
+    {
+     "id": "L21",
+     "title": "CANSLIM：七个字母的成长股模型",
+     "status": "upcoming"
+    },
+    {
+     "id": "L22",
+     "title": "Minervini 趋势模板与 VCP 波动收缩",
+     "status": "upcoming"
+    },
+    {
+     "id": "L23",
+     "title": "Wyckoff：吸筹与派发的阶段",
+     "status": "upcoming"
+    },
+    {
+     "id": "L24",
+     "title": "海龟交易法则：唐奇安突破 + N 值仓位",
+     "status": "upcoming"
+    },
+    {
+     "id": "L25",
+     "title": "Darvas 箱体：一个舞蹈家的突破系统",
+     "status": "upcoming"
+    },
+    {
+     "id": "L26",
+     "title": "动量效应的学术证据与动量崩溃",
+     "status": "upcoming"
+    },
+    {
+     "id": "L27",
+     "title": "交易系统的检验：回测、过拟合与样本外",
+     "status": "upcoming"
+    }
+   ]
+  },
+  {
+   "id": "M5",
+   "name": "瓶颈猎手方法论",
+   "lessons": [
+    {
+     "id": "L28",
+     "title": "产业链分层：为什么要看第二层、第三层",
+     "status": "upcoming"
+    },
+    {
+     "id": "L29",
+     "title": "供应链四问：给“卡脖子”打分",
+     "status": "upcoming"
+    },
+    {
+     "id": "L30",
+     "title": "错误定价三类：相对价值、量化 Bug、机械性恐慌",
+     "status": "upcoming"
+    },
+    {
+     "id": "L31",
+     "title": "十倍测算：反推目标市值与行业天花板",
+     "status": "upcoming"
+    },
+    {
+     "id": "L32",
+     "title": "AI 魔鬼代言人：给论点做压力测试",
+     "status": "upcoming"
+    }
+   ]
+  },
+  {
+   "id": "M6",
+   "name": "财报与估值实战",
+   "lessons": [
+    {
+     "id": "L33",
+     "title": "财报精读：从三张表找出真问题",
+     "status": "upcoming"
+    },
+    {
+     "id": "L34",
+     "title": "反向 DCF：股价里隐含了多少增长",
+     "status": "upcoming"
+    },
+    {
+     "id": "L35",
+     "title": "相对估值：PE、EV/EBITDA、PEG 的陷阱",
+     "status": "upcoming"
+    },
+    {
+     "id": "L36",
+     "title": "预期差：财报超预期为什么还会跌",
+     "status": "upcoming"
+    },
+    {
+     "id": "L37",
+     "title": "财报后漂移（PEAD）",
+     "status": "upcoming"
+    },
+    {
+     "id": "L38",
+     "title": "周期股估值：高 PE 买、低 PE 卖",
+     "status": "upcoming"
+    }
+   ]
+  },
+  {
+   "id": "M7",
+   "name": "宏观与市场周期",
+   "lessons": [
+    {
+     "id": "L39",
+     "title": "美林投资时钟：增长 × 通胀四象限",
+     "status": "upcoming"
+    },
+    {
+     "id": "L40",
+     "title": "美元微笑理论",
+     "status": "upcoming"
+    },
+    {
+     "id": "L41",
+     "title": "利差与实际利率：资产定价的锚",
+     "status": "upcoming"
+    },
+    {
+     "id": "L42",
+     "title": "净流动性：Fed 资产负债表、TGA 与逆回购",
+     "status": "upcoming"
+    },
+    {
+     "id": "L43",
+     "title": "收益率曲线：倒挂、解除倒挂与衰退信号",
+     "status": "upcoming"
+    },
+    {
+     "id": "L44",
+     "title": "板块轮动与异动归因",
+     "status": "upcoming"
+    },
+    {
+     "id": "L45",
+     "title": "霍华德·马克斯的周期与钟摆",
+     "status": "upcoming"
+    }
+   ]
+  },
+  {
+   "id": "M8",
+   "name": "市场结构与资金面",
+   "lessons": [
+    {
+     "id": "L46",
+     "title": "期权信号：Put/Call 比率与隐含波动率",
+     "status": "upcoming"
+    },
+    {
+     "id": "L47",
+     "title": "Gamma 敞口：做市商对冲如何放大或钉住行情",
+     "status": "upcoming"
+    },
+    {
+     "id": "L48",
+     "title": "空头与轧空：空头比率、借券成本与 GME",
+     "status": "upcoming"
+    },
+    {
+     "id": "L49",
+     "title": "机构持仓：13F 的用途与 45 天时滞",
+     "status": "upcoming"
+    },
+    {
+     "id": "L50",
+     "title": "ETF 资金流与被动投资的影响",
+     "status": "upcoming"
+    },
+    {
+     "id": "L51",
+     "title": "A股特色机制：涨跌停、北向资金、融资融券",
+     "status": "upcoming"
+    }
+   ]
+  },
+  {
+   "id": "M9",
+   "name": "行为金融与交易心理",
+   "lessons": [
+    {
+     "id": "L52",
+     "title": "处置效应：早卖赢家、死扛输家",
+     "status": "upcoming"
+    },
+    {
+     "id": "L53",
+     "title": "锚定、确认偏误与过度自信",
+     "status": "upcoming"
+    },
+    {
+     "id": "L54",
+     "title": "索罗斯反身性",
+     "status": "upcoming"
+    },
+    {
+     "id": "L55",
+     "title": "概率思维：Mark Douglas 的五个基本真相",
+     "status": "upcoming"
+    },
+    {
+     "id": "L56",
+     "title": "交易日志与复盘：把经验变成数据",
+     "status": "upcoming"
+    }
+   ]
+  },
+  {
+   "id": "M10",
+   "name": "组合与纪律",
+   "lessons": [
+    {
+     "id": "L57",
+     "title": "投资论文追踪：买入后的纪律",
+     "status": "upcoming"
+    },
+    {
+     "id": "L58",
+     "title": "组合管理：从研究公司到管理组合",
+     "status": "upcoming"
+    },
+    {
+     "id": "L59",
+     "title": "相关性与分散：真分散还是假分散",
+     "status": "upcoming"
+    },
+    {
+     "id": "L60",
+     "title": "加减仓与再平衡：金字塔加仓、分批止盈",
+     "status": "upcoming"
+    }
+   ]
+  }
+ ],
+ "reviews": [],
+ "extras": []
+}
