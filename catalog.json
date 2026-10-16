@@ -1,12 +1,12 @@
 {
  "updated": "2026-10-16",
  "total": 60,
- "done": 1,
+ "done": 2,
  "latest": {
-  "id": "L01",
+  "id": "L02",
   "date": "2026-10-16",
-  "title": "期望值：胜率与赔率的乘法",
-  "url": "lessons/L01.html"
+  "title": "R 倍数：用风险单位衡量每一笔交易",
+  "url": "lessons/L02.html"
  },
  "modules": [
   {
@@ -23,7 +23,9 @@
     {
      "id": "L02",
      "title": "R 倍数：用风险单位衡量每一笔交易",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-10-16",
+     "url": "lessons/L02.html"
     },
     {
      "id": "L03",
