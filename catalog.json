@@ -1,8 +1,13 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "total": 60,
- "done": 0,
- "latest": null,
+ "done": 1,
+ "latest": {
+  "id": "L01",
+  "date": "2026-10-16",
+  "title": "期望值：胜率与赔率的乘法",
+  "url": "lessons/L01.html"
+ },
  "modules": [
   {
    "id": "M1",
@@ -11,7 +16,9 @@
     {
      "id": "L01",
      "title": "期望值：胜率与赔率的乘法",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-10-16",
+     "url": "lessons/L01.html"
     },
     {
      "id": "L02",
