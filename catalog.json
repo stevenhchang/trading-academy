@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "total": 60,
  "done": 2,
  "latest": {
-  "id": "L02",
-  "date": "2026-10-16",
-  "title": "R 倍数：用风险单位衡量每一笔交易",
-  "url": "lessons/L02.html"
+  "id": "W01",
+  "date": "2026-10-17",
+  "title": "第 1 次复习（L01–L02）",
+  "url": "reviews/W01.html"
  },
  "modules": [
   {
@@ -374,6 +374,18 @@
    ]
   }
  ],
- "reviews": [],
+ "reviews": [
+  {
+   "id": "W01",
+   "date": "2026-10-17",
+   "title": "第 1 次复习（L01–L02）",
+   "covers": [
+    "L01",
+    "L02"
+   ],
+   "covers_display": "L01–L02",
+   "url": "reviews/W01.html"
+  }
+ ],
  "extras": []
 }
