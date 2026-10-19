@@ -3,10 +3,10 @@
  "total": 60,
  "done": 3,
  "latest": {
-  "id": "L03",
+  "id": "X01",
   "date": "2026-10-19",
-  "title": "回撤的数学：亏 50% 要涨 100% 才回本",
-  "url": "lessons/L03.html"
+  "title": "用回撤数学看 SKHX、SK 海力士、MU、LITE",
+  "url": "extras/X01.html"
  },
  "modules": [
   {
@@ -389,5 +389,12 @@
    "url": "reviews/W01.html"
   }
  ],
- "extras": []
+ "extras": [
+  {
+   "id": "X01",
+   "date": "2026-10-19",
+   "title": "用回撤数学看 SKHX、SK 海力士、MU、LITE",
+   "url": "extras/X01.html"
+  }
+ ]
 }
