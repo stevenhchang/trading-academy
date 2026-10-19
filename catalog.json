@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-17",
+ "updated": "2026-10-19",
  "total": 60,
- "done": 2,
+ "done": 3,
  "latest": {
-  "id": "W01",
-  "date": "2026-10-17",
-  "title": "第 1 次复习（L01–L02）",
-  "url": "reviews/W01.html"
+  "id": "L03",
+  "date": "2026-10-19",
+  "title": "回撤的数学：亏 50% 要涨 100% 才回本",
+  "url": "lessons/L03.html"
  },
  "modules": [
   {
@@ -30,7 +30,9 @@
     {
      "id": "L03",
      "title": "回撤的数学：亏 50% 要涨 100% 才回本",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-10-19",
+     "url": "lessons/L03.html"
     },
     {
      "id": "L04",
