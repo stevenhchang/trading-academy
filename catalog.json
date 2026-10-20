@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "total": 60,
- "done": 3,
+ "done": 4,
  "latest": {
-  "id": "X01",
-  "date": "2026-10-19",
-  "title": "用回撤数学看 SKHX、SK 海力士、MU、LITE",
-  "url": "extras/X01.html"
+  "id": "L04",
+  "date": "2026-10-20",
+  "title": "凯利公式与半凯利：最优仓位的理论上限",
+  "url": "lessons/L04.html"
  },
  "modules": [
   {
@@ -37,7 +37,9 @@
     {
      "id": "L04",
      "title": "凯利公式与半凯利：最优仓位的理论上限",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-10-20",
+     "url": "lessons/L04.html"
     },
     {
      "id": "L05",
