@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "total": 60,
- "done": 4,
+ "done": 5,
  "latest": {
-  "id": "L04",
-  "date": "2026-10-20",
-  "title": "凯利公式与半凯利：最优仓位的理论上限",
-  "url": "lessons/L04.html"
+  "id": "L05",
+  "date": "2026-10-21",
+  "title": "固定比例风险：每笔只亏账户的 1%",
+  "url": "lessons/L05.html"
  },
  "modules": [
   {
@@ -44,7 +44,9 @@
     {
      "id": "L05",
      "title": "固定比例风险：每笔只亏账户的 1%",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-10-21",
+     "url": "lessons/L05.html"
     },
     {
      "id": "L06",
