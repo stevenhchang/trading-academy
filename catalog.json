@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "total": 60,
- "done": 6,
+ "done": 7,
  "latest": {
-  "id": "L06",
-  "date": "2026-10-22",
-  "title": "止损设计：技术止损、ATR 波动止损与时间止损",
-  "url": "lessons/L06.html"
+  "id": "L07",
+  "date": "2026-10-23",
+  "title": "道氏理论：三级趋势与指数相互确认",
+  "url": "lessons/L07.html"
  },
  "modules": [
   {
@@ -64,7 +64,9 @@
     {
      "id": "L07",
      "title": "道氏理论：三级趋势与指数相互确认",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-10-23",
+     "url": "lessons/L07.html"
     },
     {
      "id": "L08",
