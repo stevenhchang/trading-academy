@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "total": 60,
  "done": 7,
  "latest": {
-  "id": "L07",
-  "date": "2026-10-23",
-  "title": "道氏理论：三级趋势与指数相互确认",
-  "url": "lessons/L07.html"
+  "id": "W02",
+  "date": "2026-10-24",
+  "title": "第 2 次复习（L03–L07）",
+  "url": "reviews/W02.html"
  },
  "modules": [
   {
@@ -395,6 +395,20 @@
    ],
    "covers_display": "L01–L02",
    "url": "reviews/W01.html"
+  },
+  {
+   "id": "W02",
+   "date": "2026-10-24",
+   "title": "第 2 次复习（L03–L07）",
+   "covers": [
+    "L03",
+    "L04",
+    "L05",
+    "L06",
+    "L07"
+   ],
+   "covers_display": "L03–L07",
+   "url": "reviews/W02.html"
   }
  ],
  "extras": [
