@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-27",
  "total": 60,
- "done": 7,
+ "done": 8,
  "latest": {
-  "id": "W02",
-  "date": "2026-10-24",
-  "title": "第 2 次复习（L03–L07）",
-  "url": "reviews/W02.html"
+  "id": "L08",
+  "date": "2026-10-27",
+  "title": "均线系统：MA50/MA200 与金叉死叉的实证表现",
+  "url": "lessons/L08.html"
  },
  "modules": [
   {
@@ -71,7 +71,9 @@
     {
      "id": "L08",
      "title": "均线系统：MA50/MA200 与金叉死叉的实证表现",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-10-27",
+     "url": "lessons/L08.html"
     },
     {
      "id": "L09",
