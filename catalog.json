@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "total": 60,
- "done": 8,
+ "done": 9,
  "latest": {
-  "id": "L08",
-  "date": "2026-10-27",
-  "title": "均线系统：MA50/MA200 与金叉死叉的实证表现",
-  "url": "lessons/L08.html"
+  "id": "L09",
+  "date": "2026-10-28",
+  "title": "量价关系：放量突破、缩量回调与量价背离",
+  "url": "lessons/L09.html"
  },
  "modules": [
   {
@@ -78,7 +78,9 @@
     {
      "id": "L09",
      "title": "量价关系：放量突破、缩量回调与量价背离",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-10-28",
+     "url": "lessons/L09.html"
     },
     {
      "id": "L10",
