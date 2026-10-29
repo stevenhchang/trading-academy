@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "total": 60,
- "done": 9,
+ "done": 10,
  "latest": {
-  "id": "L09",
-  "date": "2026-10-28",
-  "title": "量价关系：放量突破、缩量回调与量价背离",
-  "url": "lessons/L09.html"
+  "id": "L10",
+  "date": "2026-10-29",
+  "title": "支撑阻力与成交量分布（Volume Profile）",
+  "url": "lessons/L10.html"
  },
  "modules": [
   {
@@ -85,7 +85,9 @@
     {
      "id": "L10",
      "title": "支撑阻力与成交量分布（Volume Profile）",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-10-29",
+     "url": "lessons/L10.html"
     },
     {
      "id": "L11",
