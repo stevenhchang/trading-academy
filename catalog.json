@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "total": 60,
- "done": 10,
+ "done": 11,
  "latest": {
-  "id": "L10",
-  "date": "2026-10-29",
-  "title": "支撑阻力与成交量分布（Volume Profile）",
-  "url": "lessons/L10.html"
+  "id": "L11",
+  "date": "2026-10-30",
+  "title": "RSI/MACD 背离：何时有效，何时是陷阱",
+  "url": "lessons/L11.html"
  },
  "modules": [
   {
@@ -92,7 +92,9 @@
     {
      "id": "L11",
      "title": "RSI/MACD 背离：何时有效，何时是陷阱",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-10-30",
+     "url": "lessons/L11.html"
     },
     {
      "id": "L12",
