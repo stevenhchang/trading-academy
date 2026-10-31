@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "total": 60,
  "done": 11,
  "latest": {
-  "id": "L11",
-  "date": "2026-10-30",
-  "title": "RSI/MACD 背离：何时有效，何时是陷阱",
-  "url": "lessons/L11.html"
+  "id": "W03",
+  "date": "2026-10-31",
+  "title": "第 3 次复习（L08–L11）",
+  "url": "reviews/W03.html"
  },
  "modules": [
   {
@@ -417,6 +417,19 @@
    ],
    "covers_display": "L03–L07",
    "url": "reviews/W02.html"
+  },
+  {
+   "id": "W03",
+   "date": "2026-10-31",
+   "title": "第 3 次复习（L08–L11）",
+   "covers": [
+    "L08",
+    "L09",
+    "L10",
+    "L11"
+   ],
+   "covers_display": "L08–L11",
+   "url": "reviews/W03.html"
   }
  ],
  "extras": [
