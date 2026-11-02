@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-02",
  "total": 60,
- "done": 11,
+ "done": 12,
  "latest": {
-  "id": "W03",
-  "date": "2026-10-31",
-  "title": "第 3 次复习（L08–L11）",
-  "url": "reviews/W03.html"
+  "id": "L12",
+  "date": "2026-11-02",
+  "title": "布林带与波动率收缩",
+  "url": "lessons/L12.html"
  },
  "modules": [
   {
@@ -99,7 +99,9 @@
     {
      "id": "L12",
      "title": "布林带与波动率收缩",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-02",
+     "url": "lessons/L12.html"
     },
     {
      "id": "L13",
