@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "total": 60,
- "done": 13,
+ "done": 14,
  "latest": {
-  "id": "L13",
-  "date": "2026-11-03",
-  "title": "相对强度（RS）：强者恒强的横截面视角",
-  "url": "lessons/L13.html"
+  "id": "L14",
+  "date": "2026-11-04",
+  "title": "四大师框架总览：巴菲特、芒格、段永平、李录",
+  "url": "lessons/L14.html"
  },
  "modules": [
   {
@@ -119,7 +119,9 @@
     {
      "id": "L14",
      "title": "四大师框架总览：巴菲特、芒格、段永平、李录",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-04",
+     "url": "lessons/L14.html"
     },
     {
      "id": "L15",
