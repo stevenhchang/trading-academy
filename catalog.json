@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "total": 60,
  "done": 15,
  "latest": {
-  "id": "L15",
-  "date": "2026-11-06",
-  "title": "段永平的“本分”与不为清单",
-  "url": "lessons/L15.html"
+  "id": "W04",
+  "date": "2026-11-07",
+  "title": "第 4 次复习（L12–L15）",
+  "url": "reviews/W04.html"
  },
  "modules": [
   {
@@ -438,6 +438,19 @@
    ],
    "covers_display": "L08–L11",
    "url": "reviews/W03.html"
+  },
+  {
+   "id": "W04",
+   "date": "2026-11-07",
+   "title": "第 4 次复习（L12–L15）",
+   "covers": [
+    "L12",
+    "L13",
+    "L14",
+    "L15"
+   ],
+   "covers_display": "L12–L15",
+   "url": "reviews/W04.html"
   }
  ],
  "extras": [
