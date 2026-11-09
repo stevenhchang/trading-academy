@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-09",
  "total": 60,
- "done": 15,
+ "done": 16,
  "latest": {
-  "id": "W04",
-  "date": "2026-11-07",
-  "title": "第 4 次复习（L12–L15）",
-  "url": "reviews/W04.html"
+  "id": "L16",
+  "date": "2026-11-09",
+  "title": "护城河的来源与识别",
+  "url": "lessons/L16.html"
  },
  "modules": [
   {
@@ -133,7 +133,9 @@
     {
      "id": "L16",
      "title": "护城河的来源与识别",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-09",
+     "url": "lessons/L16.html"
     },
     {
      "id": "L17",
