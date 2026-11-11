@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-11",
  "total": 60,
- "done": 16,
+ "done": 17,
  "latest": {
-  "id": "L16",
-  "date": "2026-11-09",
-  "title": "护城河的来源与识别",
-  "url": "lessons/L16.html"
+  "id": "L17",
+  "date": "2026-11-11",
+  "title": "去劣筛选：7 条指标排除非一流公司",
+  "url": "lessons/L17.html"
  },
  "modules": [
   {
@@ -140,7 +140,9 @@
     {
      "id": "L17",
      "title": "去劣筛选：7 条指标排除非一流公司",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-11",
+     "url": "lessons/L17.html"
     },
     {
      "id": "L18",
