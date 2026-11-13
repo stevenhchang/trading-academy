@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-13",
  "total": 60,
- "done": 17,
+ "done": 18,
  "latest": {
-  "id": "L17",
-  "date": "2026-11-11",
-  "title": "去劣筛选：7 条指标排除非一流公司",
-  "url": "lessons/L17.html"
+  "id": "L18",
+  "date": "2026-11-13",
+  "title": "行业漏斗：从全市场到 3 家",
+  "url": "lessons/L18.html"
  },
  "modules": [
   {
@@ -147,7 +147,9 @@
     {
      "id": "L18",
      "title": "行业漏斗：从全市场到 3 家",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-13",
+     "url": "lessons/L18.html"
     },
     {
      "id": "L19",
