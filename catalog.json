@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "total": 60,
  "done": 18,
  "latest": {
-  "id": "L18",
-  "date": "2026-11-13",
-  "title": "行业漏斗：从全市场到 3 家",
-  "url": "lessons/L18.html"
+  "id": "W05",
+  "date": "2026-11-14",
+  "title": "第 5 次复习（L16–L18）",
+  "url": "reviews/W05.html"
  },
  "modules": [
   {
@@ -457,6 +457,18 @@
    ],
    "covers_display": "L12–L15",
    "url": "reviews/W04.html"
+  },
+  {
+   "id": "W05",
+   "date": "2026-11-14",
+   "title": "第 5 次复习（L16–L18）",
+   "covers": [
+    "L16",
+    "L17",
+    "L18"
+   ],
+   "covers_display": "L16–L18",
+   "url": "reviews/W05.html"
   }
  ],
  "extras": [
