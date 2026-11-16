@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-16",
  "total": 60,
- "done": 18,
+ "done": 19,
  "latest": {
-  "id": "W05",
-  "date": "2026-11-14",
-  "title": "第 5 次复习（L16–L18）",
-  "url": "reviews/W05.html"
+  "id": "L19",
+  "date": "2026-11-16",
+  "title": "管理层评估：买股票就是买人",
+  "url": "lessons/L19.html"
  },
  "modules": [
   {
@@ -154,7 +154,9 @@
     {
      "id": "L19",
      "title": "管理层评估：买股票就是买人",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-16",
+     "url": "lessons/L19.html"
     },
     {
      "id": "L20",
