@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "total": 60,
- "done": 19,
+ "done": 20,
  "latest": {
-  "id": "L19",
-  "date": "2026-11-16",
-  "title": "管理层评估：买股票就是买人",
-  "url": "lessons/L19.html"
+  "id": "L20",
+  "date": "2026-11-17",
+  "title": "买入前 Checklist：最后一道闸",
+  "url": "lessons/L20.html"
  },
  "modules": [
   {
@@ -161,7 +161,9 @@
     {
      "id": "L20",
      "title": "买入前 Checklist：最后一道闸",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-17",
+     "url": "lessons/L20.html"
     }
    ]
   },
