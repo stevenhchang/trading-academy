@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "total": 60,
- "done": 20,
+ "done": 21,
  "latest": {
-  "id": "L20",
-  "date": "2026-11-17",
-  "title": "买入前 Checklist：最后一道闸",
-  "url": "lessons/L20.html"
+  "id": "L21",
+  "date": "2026-11-18",
+  "title": "CANSLIM：七个字母的成长股模型",
+  "url": "lessons/L21.html"
  },
  "modules": [
   {
@@ -174,7 +174,9 @@
     {
      "id": "L21",
      "title": "CANSLIM：七个字母的成长股模型",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-18",
+     "url": "lessons/L21.html"
     },
     {
      "id": "L22",
