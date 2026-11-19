@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "total": 60,
- "done": 21,
+ "done": 22,
  "latest": {
-  "id": "L21",
-  "date": "2026-11-18",
-  "title": "CANSLIM：七个字母的成长股模型",
-  "url": "lessons/L21.html"
+  "id": "L22",
+  "date": "2026-11-19",
+  "title": "Minervini 趋势模板与 VCP 波动收缩",
+  "url": "lessons/L22.html"
  },
  "modules": [
   {
@@ -181,7 +181,9 @@
     {
      "id": "L22",
      "title": "Minervini 趋势模板与 VCP 波动收缩",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-19",
+     "url": "lessons/L22.html"
     },
     {
      "id": "L23",
