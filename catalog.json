@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "total": 60,
- "done": 22,
+ "done": 23,
  "latest": {
-  "id": "L22",
-  "date": "2026-11-19",
-  "title": "Minervini 趋势模板与 VCP 波动收缩",
-  "url": "lessons/L22.html"
+  "id": "L23",
+  "date": "2026-11-20",
+  "title": "Wyckoff：吸筹与派发的阶段",
+  "url": "lessons/L23.html"
  },
  "modules": [
   {
@@ -188,7 +188,9 @@
     {
      "id": "L23",
      "title": "Wyckoff：吸筹与派发的阶段",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-20",
+     "url": "lessons/L23.html"
     },
     {
      "id": "L24",
