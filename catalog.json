@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-23",
  "total": 60,
- "done": 23,
+ "done": 24,
  "latest": {
-  "id": "L23",
-  "date": "2026-11-20",
-  "title": "Wyckoff：吸筹与派发的阶段",
-  "url": "lessons/L23.html"
+  "id": "L24",
+  "date": "2026-11-23",
+  "title": "海龟交易法则：唐奇安突破 + N 值仓位",
+  "url": "lessons/L24.html"
  },
  "modules": [
   {
@@ -195,7 +195,9 @@
     {
      "id": "L24",
      "title": "海龟交易法则：唐奇安突破 + N 值仓位",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-23",
+     "url": "lessons/L24.html"
     },
     {
      "id": "L25",
