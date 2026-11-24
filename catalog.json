@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "total": 60,
- "done": 24,
+ "done": 25,
  "latest": {
-  "id": "L24",
-  "date": "2026-11-23",
-  "title": "海龟交易法则：唐奇安突破 + N 值仓位",
-  "url": "lessons/L24.html"
+  "id": "L25",
+  "date": "2026-11-24",
+  "title": "Darvas 箱体：一个舞蹈家的突破系统",
+  "url": "lessons/L25.html"
  },
  "modules": [
   {
@@ -202,7 +202,9 @@
     {
      "id": "L25",
      "title": "Darvas 箱体：一个舞蹈家的突破系统",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-24",
+     "url": "lessons/L25.html"
     },
     {
      "id": "L26",
