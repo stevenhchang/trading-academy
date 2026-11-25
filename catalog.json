@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "total": 60,
- "done": 25,
+ "done": 26,
  "latest": {
-  "id": "L25",
-  "date": "2026-11-24",
-  "title": "Darvas 箱体：一个舞蹈家的突破系统",
-  "url": "lessons/L25.html"
+  "id": "L26",
+  "date": "2026-11-25",
+  "title": "动量效应的学术证据与动量崩溃",
+  "url": "lessons/L26.html"
  },
  "modules": [
   {
@@ -209,7 +209,9 @@
     {
      "id": "L26",
      "title": "动量效应的学术证据与动量崩溃",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-25",
+     "url": "lessons/L26.html"
     },
     {
      "id": "L27",
