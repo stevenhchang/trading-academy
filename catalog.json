@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "total": 60,
- "done": 26,
+ "done": 27,
  "latest": {
-  "id": "L26",
-  "date": "2026-11-25",
-  "title": "动量效应的学术证据与动量崩溃",
-  "url": "lessons/L26.html"
+  "id": "L27",
+  "date": "2026-11-26",
+  "title": "交易系统的检验：回测、过拟合与样本外",
+  "url": "lessons/L27.html"
  },
  "modules": [
   {
@@ -216,7 +216,9 @@
     {
      "id": "L27",
      "title": "交易系统的检验：回测、过拟合与样本外",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-26",
+     "url": "lessons/L27.html"
     }
    ]
   },
