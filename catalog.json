@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "total": 60,
- "done": 27,
+ "done": 28,
  "latest": {
-  "id": "L27",
-  "date": "2026-11-26",
-  "title": "交易系统的检验：回测、过拟合与样本外",
-  "url": "lessons/L27.html"
+  "id": "L28",
+  "date": "2026-11-27",
+  "title": "产业链分层：为什么要看第二层、第三层",
+  "url": "lessons/L28.html"
  },
  "modules": [
   {
@@ -229,7 +229,9 @@
     {
      "id": "L28",
      "title": "产业链分层：为什么要看第二层、第三层",
-     "status": "upcoming"
+     "status": "done",
+     "date": "2026-11-27",
+     "url": "lessons/L28.html"
     },
     {
      "id": "L29",
