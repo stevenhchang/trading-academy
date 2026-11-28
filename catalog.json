@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "total": 60,
  "done": 28,
  "latest": {
-  "id": "L28",
-  "date": "2026-11-27",
-  "title": "产业链分层：为什么要看第二层、第三层",
-  "url": "lessons/L28.html"
+  "id": "W06",
+  "date": "2026-11-28",
+  "title": "第 6 次复习（L19–L28）",
+  "url": "reviews/W06.html"
  },
  "modules": [
   {
@@ -489,6 +489,25 @@
    ],
    "covers_display": "L16–L18",
    "url": "reviews/W05.html"
+  },
+  {
+   "id": "W06",
+   "date": "2026-11-28",
+   "title": "第 6 次复习（L19–L28）",
+   "covers": [
+    "L19",
+    "L20",
+    "L21",
+    "L22",
+    "L23",
+    "L24",
+    "L25",
+    "L26",
+    "L27",
+    "L28"
+   ],
+   "covers_display": "L19–L28",
+   "url": "reviews/W06.html"
   }
  ],
  "extras": [
